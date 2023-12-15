@@ -40,7 +40,7 @@ class Graph extends Component<IProps, {}> {
       elem.load(this.table);
       elem.setAttribute('view', 'y_line');
       elem.setAttribute('row-pivots', '["timestamp"]');
-      elem.setAttribute('columns','["ratio","lower bound","upper bound","trigger alert"]');
+      elem.setAttribute('columns','["ratio", "lower bound", "upper bound", "trigger alert"]');
       elem.setAttribute('aggregates', JSON.stringify({
         price_abc: 'avg',
         price_def: 'avg',
